@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780542981437-s0if5fdk6",
+  "providerId": "claude",
+  "title": "Explain \"yolo\" meaning in chat dialog",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780542981437,
+  "updatedAt": 1780543039906,
+  "lastResponseAt": 1780542993202,
+  "sessionId": "07c10c60-f1e0-4205-bf18-c66de3f9de7b",
+  "providerState": {
+    "providerSessionId": "07c10c60-f1e0-4205-bf18-c66de3f9de7b"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 1551,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21248,
+    "contextWindow": 200000,
+    "contextTokens": 22799,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

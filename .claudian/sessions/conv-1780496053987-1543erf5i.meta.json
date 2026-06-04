@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780496053987-1543erf5i",
+  "providerId": "claude",
+  "title": "hello？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780496053987,
+  "updatedAt": 1780575698295,
+  "lastResponseAt": 1780575698295,
+  "sessionId": "a70bdc6d-6aef-4e5b-9f23-17bd8278964d",
+  "providerState": {
+    "providerSessionId": "a70bdc6d-6aef-4e5b-9f23-17bd8278964d"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 1448,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 295424,
+    "contextWindow": 200000,
+    "contextTokens": 296872,
+    "percentage": 100,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/plugins/obsidian-git/data.json
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+
+# Large font packages (不要提交到GitHub，本地保留即可)
+.obsidian/fonts/*.zip
+.obsidian/fonts/HarmonyOS-Sans-v3/

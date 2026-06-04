@@ -1,0 +1,194 @@
+/*
+  Minimal 主题自定义样式
+  字体、排版、标题层次、引用块、代码块、链接
+*/
+
+/* ========== 字体配置 ========== */
+@font-face {
+  font-family: "Yozai Local";
+  src: local("Yozai-Regular"),
+       local("Yozai"),
+       url("file:///C:/Users/FUYAOWEN/AppData/Local/Microsoft/Windows/Fonts/Yozai-Regular.ttf");
+}
+
+body {
+  --font-editor-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
+  --font-text-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
+  --font-interface-override: "HarmonyOS Sans", sans-serif;
+  --font-monospace-override: "HarmonyOS Sans", "JetBrains Mono", monospace;
+}
+
+/* ========== 标题层次 - 让各级标题区分更明显 ========== */
+/* H1：超大、加粗、底部边框线 */
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 {
+  font-size: 2em !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* H2：大号、加粗 */
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 {
+  font-size: 1.6em !important;
+  font-weight: 650 !important;
+  margin-top: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+/* H3：适中、半粗 */
+.markdown-preview-view h3,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 {
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  margin-top: 1.1em;
+  margin-bottom: 0.3em;
+}
+
+/* H4：正常大小、半粗 */
+.markdown-preview-view h4,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 {
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+/* H5-H6：小号 */
+.markdown-preview-view h5,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  margin-top: 0.8em;
+}
+
+.markdown-preview-view h6,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 {
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+  color: var(--text-muted);
+}
+
+/* ========== 段落间距 - 给文字呼吸空间 ========== */
+.markdown-preview-view p {
+  margin-top: 0.2em;
+  margin-bottom: 0.8em;
+  line-height: 1.7;
+}
+
+.markdown-source-view.mod-cm6 .cm-line {
+  line-height: 1.7;
+}
+
+/* ========== 列表 ========== */
+.markdown-preview-view li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+/* ========== 代码块 ========== */
+.markdown-preview-view pre {
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  padding: 16px;
+}
+
+.markdown-preview-view code,
+.markdown-source-view.mod-cm6 .cm-inline-code {
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ========== 链接 - 更醒目 ========== */
+.markdown-preview-view a.internal-link {
+  text-decoration: underline;
+  text-decoration-color: var(--text-accent);
+  text-underline-offset: 2px;
+}
+
+.markdown-preview-view a.external-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ========== 引用块背景 ========== */
+.markdown-preview-view blockquote,
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  background-color: rgba(240, 240, 240, 0.3) !important;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+/* ========== 侧边栏宽度自定义 ========== */
+/* 注意：右侧面板（聊天）不设 max-width，否则无法拉宽 */
+.workspace-split.mod-left-split {
+  min-width: 280px;
+  max-width: 400px;
+}
+.workspace-split.mod-right-split {
+  min-width: 200px;
+}
+
+/* ========== Floating TOC 美化 ========== */
+.heading-list-item[data-level] .text::after {
+  display: none !important;
+}
+
+.heading-list-item .text-wrap .text {
+  font-size: 0.85rem !important;
+  padding: 0.3rem 0.5rem !important;
+  border-radius: 0.3rem !important;
+  color: #888 !important;
+}
+
+.heading-list-item.located .text-wrap.located .text {
+  color: #555 !important;
+  font-weight: 700 !important;
+}
+
+.heading-list-item .text-wrap .text:hover {
+  font-weight: 600;
+}
+
+/* ========== 核心插件"大纲"美化 ========== */
+.workspace-leaf-content[data-type="outline"] .tree-item-self .tree-item-inner {
+  font-family: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif !important;
+  font-size: 0.9rem !important;
+  color: #333 !important;
+  font-weight: 500 !important;
+}
+
+.workspace-leaf-content[data-type="outline"] .tree-item-self.is-active .tree-item-inner {
+  color: #000 !important;
+  font-weight: 700 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+/* 去掉大纲的缩进竖线，更清爽 */
+.workspace-leaf-content[data-type="outline"] .tree-item-children {
+  border-left: none !important;
+}
+
+/* 折叠箭头用简单样式 */
+.workspace-leaf-content[data-type="outline"] .tree-item-collapse {
+  color: #999 !important;
+  width: 16px !important;
+}
+
+/* ========== 图片自适应 ========== */
+/* 防止图片被无脑放大导致像素化 */
+.markdown-preview-view img,
+.markdown-source-view .image-embed img,
+.markdown-preview-view img[style*="zoom"],
+.markdown-source-view img[style*="zoom"] {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
