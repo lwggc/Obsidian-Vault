@@ -46,5 +46,13 @@
       ],
       "key": "6"
     }
+  ],
+  "templater-obsidian:insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "i"
+    }
   ]
 }
