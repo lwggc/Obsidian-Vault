@@ -16,10 +16,10 @@ body {
   --font-text-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
   --font-interface-override: "HarmonyOS Sans", sans-serif;
   --font-monospace-override: "HarmonyOS Sans", "JetBrains Mono", monospace;
+  --text-faint: #555 !important;
 }
 
-/* ========== 标题层次 - 让各级标题区分更明显 ========== */
-/* H1：超大、加粗、底部边框线 */
+/* ========== 标题层次 ========== */
 .markdown-preview-view h1,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 {
   font-size: 2em !important;
@@ -30,7 +30,6 @@ body {
   margin-bottom: 0.5em;
 }
 
-/* H2：大号、加粗 */
 .markdown-preview-view h2,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 {
   font-size: 1.6em !important;
@@ -39,7 +38,6 @@ body {
   margin-bottom: 0.4em;
 }
 
-/* H3：适中、半粗 */
 .markdown-preview-view h3,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 {
   font-size: 1.3em !important;
@@ -48,7 +46,6 @@ body {
   margin-bottom: 0.3em;
 }
 
-/* H4：正常大小、半粗 */
 .markdown-preview-view h4,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 {
   font-size: 1.1em !important;
@@ -57,7 +54,6 @@ body {
   margin-bottom: 0.3em;
 }
 
-/* H5-H6：小号 */
 .markdown-preview-view h5,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 {
   font-size: 1em !important;
@@ -72,7 +68,7 @@ body {
   color: var(--text-muted);
 }
 
-/* ========== 段落间距 - 给文字呼吸空间 ========== */
+/* ========== 段落间距 ========== */
 .markdown-preview-view p {
   margin-top: 0.2em;
   margin-bottom: 0.8em;
@@ -83,7 +79,6 @@ body {
   line-height: 1.7;
 }
 
-/* ========== 列表 ========== */
 .markdown-preview-view li {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
@@ -103,7 +98,7 @@ body {
   border-radius: 4px;
 }
 
-/* ========== 链接 - 更醒目 ========== */
+/* ========== 链接 ========== */
 .markdown-preview-view a.internal-link {
   text-decoration: underline;
   text-decoration-color: var(--text-accent);
@@ -123,8 +118,7 @@ body {
   padding: 8px 16px;
 }
 
-/* ========== 侧边栏宽度自定义 ========== */
-/* 注意：右侧面板（聊天）不设 max-width，否则无法拉宽 */
+/* ========== 侧边栏宽度 ========== */
 .workspace-split.mod-left-split {
   min-width: 280px;
   max-width: 400px;
@@ -162,8 +156,34 @@ body {
   font-weight: 500 !important;
 }
 
+.workspace-leaf-content[data-type="outline"] .tree-item-self.is-active .tree-item-inner {
+  color: #000 !important;
+  font-weight: 700 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+.workspace-leaf-content[data-type="outline"] .tree-item-children {
+  border-left: none !important;
+}
+
+.workspace-leaf-content[data-type="outline"] .tree-item-collapse {
+  color: #999 !important;
+  width: 16px !important;
+}
+
+/* ========== 图片自适应 ========== */
+.markdown-preview-view img,
+.markdown-source-view .image-embed img,
+.markdown-preview-view img[style*="zoom"],
+.markdown-source-view img[style*="zoom"] {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
 /* ========== Callout 卡片风格 ========== */
-/* important - 紫色重点 */
 .callout[data-callout="important"] {
   border: 1px solid rgba(128, 0, 128, 0.2) !important;
   border-left: 6px solid var(--color-purple) !important;
@@ -185,7 +205,6 @@ body {
   font-size: 0.95em !important;
 }
 
-/* note - 蓝色笔记 */
 .callout[data-callout="note"] {
   border: 1px solid rgba(0, 100, 200, 0.2) !important;
   border-left: 6px solid var(--color-blue) !important;
@@ -202,7 +221,6 @@ body {
   margin-bottom: 6px !important;
 }
 
-/* warning - 橙色警告 */
 .callout[data-callout="warning"] {
   border: 1px solid rgba(255, 140, 0, 0.2) !important;
   border-left: 6px solid var(--color-orange) !important;
@@ -219,56 +237,27 @@ body {
   margin-bottom: 6px !important;
 }
 
-.workspace-leaf-content[data-type="outline"] .tree-item-self.is-active .tree-item-inner {
-  color: #000 !important;
-  font-weight: 700 !important;
-  background: rgba(0, 0, 0, 0.05) !important;
-  padding: 2px 6px !important;
-  border-radius: 4px !important;
-}
-
-/* 去掉大纲的缩进竖线，更清爽 */
+/* ========== 大纲缩进线 ========== */
 .workspace-leaf-content[data-type="outline"] .tree-item-children {
   border-left: none !important;
 }
 
-/* 折叠箭头用简单样式 */
 .workspace-leaf-content[data-type="outline"] .tree-item-collapse {
   color: #999 !important;
   width: 16px !important;
 }
 
-/* ========== 图片自适应 ========== */
-/* 防止图片被无脑放大导致像素化 */
-.markdown-preview-view img,
-.markdown-source-view .image-embed img,
-.markdown-preview-view img[style*="zoom"],
-.markdown-source-view img[style*="zoom"] {
-  max-width: 100% !important;
-  height: auto !important;
-  object-fit: contain;
-}
-
-/* ========== 列表符号醒目 ========== */
-/* 有序列表数字加粗显眼 */
+/* ========== 列表格式标记变醒目 ========== */
+/* 阅读模式 */
 .markdown-preview-view ol > li::marker,
-.markdown-source-view .cm-line.HyperMD-list-line[data-charm*="1"]::before {
-  font-weight: 700 !important;
-  color: var(--text-normal) !important;
-}
-
-/* 无序列表符号 */
 .markdown-preview-view ul > li::marker {
+  color: #222 !important;
   font-weight: 700 !important;
-  color: var(--text-accent) !important;
 }
 
-/* 子层级符号颜色区分 */
-.markdown-preview-view ul ul > li::marker {
-  color: var(--color-orange) !important;
+/* 实时预览 - 强制列表行全部不淡化 */
+.HyperMD-list-line,
+.HyperMD-list-line * {
+  color: #222 !important;
+  opacity: 1 !important;
 }
-
-.markdown-preview-view ul ul ul > li::marker {
-  color: var(--color-cyan) !important;
-}
-
