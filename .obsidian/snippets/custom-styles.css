@@ -162,6 +162,63 @@ body {
   font-weight: 500 !important;
 }
 
+/* ========== Callout 卡片风格 ========== */
+/* important - 紫色重点 */
+.callout[data-callout="important"] {
+  border: 1px solid rgba(128, 0, 128, 0.2) !important;
+  border-left: 6px solid var(--color-purple) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06) !important;
+  background: rgba(128, 0, 128, 0.03) !important;
+}
+
+.callout[data-callout="important"] .callout-title {
+  font-weight: 700 !important;
+  font-size: 1em !important;
+  color: #1a3a7a !important;
+  border-bottom: 2px solid rgba(128, 0, 128, 0.2) !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 6px !important;
+}
+
+.callout[data-callout="important"] .callout-content {
+  font-size: 0.95em !important;
+}
+
+/* note - 蓝色笔记 */
+.callout[data-callout="note"] {
+  border: 1px solid rgba(0, 100, 200, 0.2) !important;
+  border-left: 6px solid var(--color-blue) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06) !important;
+  background: rgba(0, 100, 200, 0.03) !important;
+}
+
+.callout[data-callout="note"] .callout-title {
+  font-weight: 700 !important;
+  color: #1a3a7a !important;
+  border-bottom: 2px solid rgba(0, 100, 200, 0.2) !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 6px !important;
+}
+
+/* warning - 橙色警告 */
+.callout[data-callout="warning"] {
+  border: 1px solid rgba(255, 140, 0, 0.2) !important;
+  border-left: 6px solid var(--color-orange) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06) !important;
+  background: rgba(255, 140, 0, 0.03) !important;
+}
+
+.callout[data-callout="warning"] .callout-title {
+  font-weight: 700 !important;
+  color: #1a3a7a !important;
+  border-bottom: 2px solid rgba(255, 140, 0, 0.2) !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 6px !important;
+}
+
 .workspace-leaf-content[data-type="outline"] .tree-item-self.is-active .tree-item-inner {
   color: #000 !important;
   font-weight: 700 !important;
@@ -190,5 +247,28 @@ body {
   max-width: 100% !important;
   height: auto !important;
   object-fit: contain;
+}
+
+/* ========== 列表符号醒目 ========== */
+/* 有序列表数字加粗显眼 */
+.markdown-preview-view ol > li::marker,
+.markdown-source-view .cm-line.HyperMD-list-line[data-charm*="1"]::before {
+  font-weight: 700 !important;
+  color: var(--text-normal) !important;
+}
+
+/* 无序列表符号 */
+.markdown-preview-view ul > li::marker {
+  font-weight: 700 !important;
+  color: var(--text-accent) !important;
+}
+
+/* 子层级符号颜色区分 */
+.markdown-preview-view ul ul > li::marker {
+  color: var(--color-orange) !important;
+}
+
+.markdown-preview-view ul ul ul > li::marker {
+  color: var(--color-cyan) !important;
 }
 
