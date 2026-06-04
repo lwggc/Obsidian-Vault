@@ -1,11 +1,20 @@
 {
-  "templater-obsidian:insert-templater": [
+  "templater-obsidian:insert-templates/重要.md": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "i"
     }
   ],
-  "obsidian-excalidraw-plugin:save": []
+  "templater-obsidian:insert-templates/笔记.md": [
+    {
+      "modifiers": ["Alt"],
+      "key": "n"
+    }
+  ],
+  "templater-obsidian:insert-templates/注意.md": [
+    {
+      "modifiers": ["Alt"],
+      "key": "w"
+    }
+  ]
 }
