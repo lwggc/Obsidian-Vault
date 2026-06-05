@@ -237,27 +237,12 @@ body {
   margin-bottom: 6px !important;
 }
 
-/* ========== 大纲缩进线 ========== */
-.workspace-leaf-content[data-type="outline"] .tree-item-children {
-  border-left: none !important;
-}
-
-.workspace-leaf-content[data-type="outline"] .tree-item-collapse {
-  color: #999 !important;
-  width: 16px !important;
-}
-
-/* ========== 列表格式标记变醒目 ========== */
-/* 阅读模式 */
-.markdown-preview-view ol > li::marker,
-.markdown-preview-view ul > li::marker {
-  color: #222 !important;
+/* 有序列表数字 1. 2. 3. 加粗深色 */
+.HyperMD-list-line .cm-formatting-list-ol {
+  color: #1a3a7a !important;
   font-weight: 700 !important;
-}
-
-/* 实时预览 - 强制列表行全部不淡化 */
-.HyperMD-list-line,
-.HyperMD-list-line * {
-  color: #222 !important;
   opacity: 1 !important;
 }
+
+
+

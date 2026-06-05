@@ -4,19 +4,19 @@
   "title": "hello？",
   "titleGenerationStatus": "failed",
   "createdAt": 1780496053987,
-  "updatedAt": 1780583872912,
-  "lastResponseAt": 1780583872911,
+  "updatedAt": 1780584800781,
+  "lastResponseAt": 1780584800781,
   "sessionId": "a70bdc6d-6aef-4e5b-9f23-17bd8278964d",
   "providerState": {
     "providerSessionId": "a70bdc6d-6aef-4e5b-9f23-17bd8278964d"
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 85,
+    "inputTokens": 73,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 370688,
+    "cacheReadInputTokens": 390272,
     "contextWindow": 200000,
-    "contextTokens": 370773,
+    "contextTokens": 390345,
     "percentage": 100,
     "contextWindowIsAuthoritative": true
   }
