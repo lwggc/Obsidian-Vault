@@ -176,6 +176,23 @@ body {
   opacity: 1 !important;
 }
 
+/* 阅读模式 - 多级列表不同符号 */
+.markdown-preview-view ul > li::marker {
+  content: '● ';
+  color: #1a3a7a;
+  font-size: 1em;
+}
+.markdown-preview-view ul ul > li::marker {
+  content: '■ ';
+  color: #1a3a7a;
+  font-size: 0.9em;
+}
+.markdown-preview-view ul ul ul > li::marker {
+  content: '★ ';
+  color: #1a3a7a;
+  font-size: 0.9em;
+}
+
 .workspace-leaf-content[data-type="outline"] .tree-item-children {
   border-left: none !important;
 }

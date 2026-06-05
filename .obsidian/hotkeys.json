@@ -2,19 +2,13 @@
   "templater-obsidian:templates/重要.md": [
     {
       "modifiers": ["Alt"],
-      "key": "i"
-    }
-  ],
-  "templater-obsidian:templates/笔记.md": [
-    {
-      "modifiers": ["Alt"],
-      "key": "n"
+      "key": "1"
     }
   ],
   "templater-obsidian:templates/注意.md": [
     {
       "modifiers": ["Alt"],
-      "key": "w"
+      "key": "2"
     }
   ]
 }
