@@ -7,8 +7,8 @@
 @font-face {
   font-family: "Yozai Local";
   src: local("Yozai-Regular"),
-       local("Yozai"),
-       url("file:///C:/Users/FUYAOWEN/AppData/Local/Microsoft/Windows/Fonts/Yozai-Regular.ttf");
+       local("Yozai Regular"),
+       local("Yozai");
 }
 
 body {
@@ -164,6 +164,18 @@ body {
   border-radius: 4px !important;
 }
 
+/* 无序列表圆圈 深蓝色 */
+.HyperMD-list-line {
+  --list-marker-color: #1a3a7a !important;
+}
+
+/* 有序列表数字 1. 2. 3. 深蓝色加粗 */
+.HyperMD-list-line .cm-formatting-list-ol {
+  color: #1a3a7a !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
 .workspace-leaf-content[data-type="outline"] .tree-item-children {
   border-left: none !important;
 }
@@ -237,12 +249,6 @@ body {
   margin-bottom: 6px !important;
 }
 
-/* 有序列表数字 1. 2. 3. 加粗深色 */
-.HyperMD-list-line .cm-formatting-list-ol {
-  color: #1a3a7a !important;
-  font-weight: 700 !important;
-  opacity: 1 !important;
-}
 
 
 
