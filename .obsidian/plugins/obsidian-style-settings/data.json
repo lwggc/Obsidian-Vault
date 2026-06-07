@@ -21,5 +21,9 @@
   "floating-toc-styles@@floating-toc-color-h4@@dark": "#DD3D3DCF",
   "floating-toc-styles@@floating-toc-color-h6@@dark": "#80FA2AFA",
   "floating-toc-styles@@floating-toc-color-h5@@dark": "#5D45C9DB",
-  "floating-toc-styles@@floating-toc-font-size": 0.8
+  "floating-toc-styles@@floating-toc-font-size": 0.8,
+  "shiba-theme-settings@@shiba-colors-theme-light": "sky-light",
+  "shiba-theme-settings@@shiba-colors-theme-dark": "warm-dark",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-blue",
+  "shiba-theme-settings@@shib-minimal-cards-style-select": "minimal-cards-style1"
 }

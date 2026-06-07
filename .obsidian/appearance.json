@@ -1,8 +1,6 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Shiba Inu",
   "accentColor": "#7465c3",
   "theme": "moonstone",
-  "enabledCssSnippets": [
-    "custom-styles"
-  ]
+  "enabledCssSnippets": []
 }

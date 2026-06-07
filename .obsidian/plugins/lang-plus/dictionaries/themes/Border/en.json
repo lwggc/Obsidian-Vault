@@ -1,0 +1,26 @@
+{
+  "$meta": {
+    "themeName": "Border",
+    "themeVersion": "1.13.7",
+    "dictVersion": "1780798016788",
+    "locale": "en",
+    "description": "Automatically extracted from theme.css via Style Settings metadata",
+    "sourceHash": "4a970204b904"
+  },
+  "Theme Info": "Theme Info",
+  "🎨 Appearance presets: [get presets here](https://github.com/Akifyss/obsidian-border/blob/main/presets.md), click on “Import” in the top right corner and restart obsidian. <br> <br> 📭 If you have problems, please submit [issues](https://github.com/Akifyss/obsidian-border/issues) or [discuss](https://github.com/Akifyss/obsidian-border/discussions) on Github<br> <br> 🔼 View recent updates: [Github Commit History](https://github.com/Akifyss/obsidian-border/commits/main)": "🎨 Appearance presets: [get presets here](https://github.com/Akifyss/obsidian-border/blob/main/presets.md), click on “Import” in the top right corner and restart obsidian. <br> <br> 📭 If you have problems, please submit [issues](https://github.com/Akifyss/obsidian-border/issues) or [discuss](https://github.com/Akifyss/obsidian-border/discussions) on Github<br> <br> 🔼 View recent updates: [Github Commit History](https://github.com/Akifyss/obsidian-border/commits/main)",
+  "Mobile": "Mobile",
+  "Enable card layout (pad only)": "Enable card layout (pad only)",
+  "Side drawer full screen (phone only)": "Side drawer full screen (phone only)",
+  "Plugin": "Plugin",
+  "DB Folder": "DB Folder",
+  "Disable full width table": "Disable full width table",
+  "background color": "background color",
+  "Default": "Default",
+  "Adapt to lower background": "Adapt to lower background",
+  "Unify background color": "Unify background color",
+  "Projects": "Projects",
+  "Checklist": "Checklist",
+  "colorful checkbox": "colorful checkbox",
+  "@@ids": "[\"Info\",\"Mobile\",\"Plugin\"]"
+}
