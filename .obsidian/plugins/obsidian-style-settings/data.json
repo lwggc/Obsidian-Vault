@@ -25,5 +25,11 @@
   "shiba-theme-settings@@shiba-colors-theme-light": "sky-light",
   "shiba-theme-settings@@shiba-colors-theme-dark": "warm-dark",
   "shiba-theme-settings@@shiba-accent-colors": "accent-blue",
-  "shiba-theme-settings@@shib-minimal-cards-style-select": "minimal-cards-style1"
+  "shiba-theme-settings@@shib-minimal-cards-style-select": "minimal-cards-style1",
+  "shiba-theme-settings@@h2-font": "Anton",
+  "shiba-theme-settings@@h3-font": "Fredoka One",
+  "shiba-theme-settings@@h4-font": "Righteous",
+  "shiba-theme-settings@@h5-font": "Raleway",
+  "shiba-theme-settings@@h6-font": "Abril Fatface",
+  "shiba-theme-settings@@image-zoom": true
 }

@@ -6463,15 +6463,15 @@ settings:
 
 - 
     id: shiba-colors-header
-    title: 颜色
+    title: Colors
     description: Customize the look and feel of the theme with color palettes, accents and styling.
     type: heading
     level: 1
     collapsed: true
 - 
     id: shiba-colors-theme-light
-    title: 浅色主题
-    description: 选择配色方案
+    title: Light Theme
+    description: Select your color palette
     type: class-select
     allowEmpty: false
     default: default-light-theme
@@ -6493,8 +6493,8 @@ settings:
             value: stone-light
 - 
     id: shiba-colors-theme-dark
-    title: 深色主题
-    description: 选择配色方案
+    title: Dark Theme
+    description: Select your color palette
     type: class-select
     allowEmpty: false
     default: default-dark-theme
@@ -6513,14 +6513,14 @@ settings:
             value: pure-dark
 - 
     id: shiba-accent-style
-    title: 启用强调色风格
+    title: Enable Accent Style
     description: Adjust the theme style with the accents below
     type: class-toggle
     default: true
 - 
     id: shiba-accent-colors
-    title: 强调色
-    description: 与高亮色兼容
+    title: Accent Colors
+    description: Compatible with highlight color
     type: class-select
     allowEmpty: false
     default: accent-lily
@@ -6563,14 +6563,14 @@ settings:
             value: accent-orange
 - 
     id: shiba-custom-color-palette-header
-    title: 自定义调色板
+    title: Custom Palette 
     type: heading
-    description: 自定义你自己的调色板！
+    description: Customize your own color palette!
     level: 2
     collapsed: true
 - 
     id: background-primary
-    title: 主背景色
+    title: Background Primary
     description: Base; such as markdown, vertical tab content and active tab.
     type: variable-themed-color
     opacity: true
@@ -6579,7 +6579,7 @@ settings:
     default-dark: '#'
 -
     id: background-primary-alt
-    title: 主背景色 (alt)
+    title: Background Primary (alt)
     type: variable-themed-color
     opacity: true
     format: hex
@@ -6587,7 +6587,7 @@ settings:
     default-dark: '#'
 -
     id: background-secondary
-    title: 次背景色
+    title: Background Secondary
     description: Side; as in layouts, vertical tab header and inactive tabs. 
     type: variable-themed-color
     opacity: true
@@ -6596,7 +6596,7 @@ settings:
     default-dark: '#'
 -
     id: background-secondary-alt
-    title: 次背景色 (alt)
+    title: Background Secondary (alt)
     type: variable-themed-color
     opacity: true
     format: hex
@@ -6604,7 +6604,7 @@ settings:
     default-dark: '#'
 -
     id: background-modifier-border
-    title: 边框修饰色
+    title: Background Modifier Border
     description: Surface; such as the scrollbars and the borders.
     type: variable-themed-color
     opacity: true
@@ -6613,7 +6613,7 @@ settings:
     default-dark: '#'
 -
     id: background-modifier-border
-    title: 边框修饰色
+    title: Background Modifier Border
     description: Surface; such as the scrollbars and the borders.
     type: variable-themed-color
     opacity: true
@@ -6622,14 +6622,14 @@ settings:
     default-dark: '#'
 - 
   id: shiba-custom-color-accent-header
-  title: 自定义强调色
+  title: Custom Accents 
   type: heading
-  description: 自定义你自己的强调色！
+  description: Customize your own accent color!
   level: 2
   collapsed: true
 - 
     id: color-accent
-    title: 强调色
+    title: Accent color
     description: Change the color of the accent.
     type: variable-themed-color
     opacity: true
@@ -6641,122 +6641,122 @@ settings:
 
 - 
     id: shiba-editor-header
-    title: 编辑器
+    title: Editor 
     type: heading
     description: Personalize the look of headers, texts, blockquotes, callouts, and other elements in your notes.
     level: 1
     collapsed: true
 - 
     id: shiba-typography-header
-    title: 字体
+    title: Font
     type: heading
     description: Characteristics, styles, and options of fonts.
     level: 2
     collapsed: true
 -
     id: fonts-family-header
-    title: 字体系列
+    title: Fonts family
     type: heading
     level: 3
     collapsed: true
 -
     id: font-text-theme
-    title: 正文字体
+    title: Text Font
     description: Main fonts used are not applied to the code texts.
     type: variable-text
     default: "var(--font-default)"
 -
     id: font-family-vertical-bar
-    title: 侧边栏（设置）
+    title: Vertical Bar (Settings)
     type: variable-text
     default: "var(--font-default)"
 -
     id: font-family-folder-file-title
-    title: 文件夹与文件标题
+    title: Folder & File Title 
     type: variable-text
     default: "var(--font-default)"
 -
     id: font-monospace-theme
-    title: 代码块
+    title: Codebox
     description: "```codebox```"
     type: variable-text
     default: "var(--font-default)"
 -
     id: font-family-inline-code
-    title: 行内代码
+    title: Inline Code
     description: "`inline`"
     type: variable-text
     default: var(--font-monospace-theme)
 -
     id: font-family-tag
-    title: 标签
+    title: Tag
     type: variable-text
     default: "var(--font-default)"
 -
     id: font-family-vault
-    title: 库名称
+    title: Vault Name
     type: variable-text
     default: "var(--font-default)"
 -
     id: fonts-size-header
-    title: 字号
+    title: Fonts size
     type: heading
     level: 3
     collapsed: true
 -
     id: font-size-folder-and-file
-    title: 文件夹和文件
+    title: Folder and File
     type: variable-text
     default: 0.90em
 -
     id: font-size-vault-name
-    title: 库名称
+    title: Vault Name
     type: variable-text
     default: 0.95em
 -
     id: font-size-file-header-title
-    title: 文件头
+    title: File Header 
     description: doesn't work for Sliding Pane plugin.
     type: variable-text
     default: 0.93em
 -
     id: font-size-code
-    title: 代码块
+    title: Codeblock
     type: variable-text
     default: 1em
 - 
     id: shiba-headers-header
-    title: 标题
+    title: Headers
     type: heading
     description: Characteristics, colors, and fonts of headers.
     level: 2
     collapsed: true
 -
     id: shib-header-color-toggle
-    title: 启用自定义标题颜色
+    title: Enable Custom Heading Colors
     type: class-toggle
     default: true
 -
     id: shiba-clutter-free-headings
-    title: 启用简洁标题模式
+    title: Enable Clutter Free Headings
     description: Displays formatting marks while editing, and replaces them with a muted "H1", "H2", etc. if they are not the active line.
     type: class-toggle
     default: false
 -
     id: shiba-remove-heading-indicator
-    title: 禁用 H1-H6 指示器
+    title: Disable H1-H6 Indicators
     description: Removal of H1-H6 indicators in front of titles on mouseover.
     type: class-toggle
     default: true
 -
     id: shib-h1-header
-    title: H1 设置
+    title: H1 settings
     type: heading
     level: 3
     collapsed: true
 -
     id: h1-font
-    title: H1 Shiba 字体
+    title: H1 Shiba font
     type: variable-select
     default: Satoshi
     options:
@@ -6771,28 +6771,28 @@ settings:
             - Syne
 -
     id: h1-font
-    title: H1 自定义字体
+    title: H1 Custom font 
     type: variable-text
     default: Satoshi
 - 
     id: h1-size
-    title: H1 字号（em）
+    title: H1 size (em)
     type: variable-number
     default: 1.90
     format: em
 - 
     id: h1-weight
-    title: H1 字重
+    title: H1 weight
     type: variable-number
     default: 600
 - 
     id: h1-line-height
-    title: H1 行高
+    title: H1 line height
     type: variable-number
     default: 1
 - 
     id: shib-h1-color-custom
-    title: H1 颜色
+    title: H1 color
     type: class-select
     allowEmpty: true
     default: shib-h1-red
@@ -6835,7 +6835,7 @@ settings:
             value: shib-h1-orange
 -
     id: h1-color
-    title: 自定义 H1 颜色
+    title: Custom H1 Color
     type: variable-themed-color
     opacity: true
     format: hex
@@ -6843,18 +6843,18 @@ settings:
     default-dark: '#'
 -
     id: shib-h1-underline
-    title: H1 下划线
+    title: H1 Underline
     description: You must have the Custom Heading Colors  enabled or, if disabled, have selected a custom color for it to work.
     type: class-toggle
 -
     id: shib-h2-header
-    title: H2 设置
+    title: H2 settings
     type: heading
     level: 3
     collapsed: true
 -
     id: h2-font
-    title: H2 Shiba 字体
+    title: H2 Shiba font
     type: variable-select
     default: Satoshi
     options:
@@ -6869,28 +6869,28 @@ settings:
             - Syne
 -
     id: h2-font
-    title: H2 自定义字体
+    title: H2 Custom font 
     type: variable-text
     default: Satoshi
 - 
     id: h2-size
-    title: H2 字号（em）
+    title: H2 size (em)
     type: variable-number
     default: 1.65
     format: em
 - 
     id: h2-weight
-    title: H2 字重
+    title: H2 weight
     type: variable-number
     default: 500
 - 
     id: h2-line-height
-    title: H2 行高
+    title: H2 line height
     type: variable-number
     default: 1.2
 - 
     id: shib-h2-color-custom
-    title: H2 颜色
+    title: H2 color
     type: class-select
     allowEmpty: true
     default: shib-h2-lily
@@ -6933,7 +6933,7 @@ settings:
             value: shib-h2-orange
 -
     id: h2-color
-    title: 自定义 H2 颜色
+    title: Custom H2 Color
     type: variable-themed-color
     opacity: true
     format: hex
@@ -6941,18 +6941,18 @@ settings:
     default-dark: '#'
 -
     id: shib-h2-underline
-    title: H2 下划线
+    title: H2 Underline
     description: You must have the Custom Heading Colors  enabled or, if disabled, have selected a custom color for it to work.
     type: class-toggle
 -
     id: shib-h3-header
-    title: H3 设置
+    title: H3 settings
     type: heading
     level: 3
     collapsed: true
 -
     id: h3-font
-    title: H3 Shiba 字体
+    title: H3 Shiba font
     type: variable-select
     default: Satoshi
     options:
@@ -6967,28 +6967,28 @@ settings:
             - Syne
 -
     id: h3-font
-    title: H3 自定义字体
+    title: H3 Custom font 
     type: variable-text
     default: Satoshi
 - 
     id: h3-size
-    title: H3 字号（em）
+    title: H3 size (em)
     type: variable-number
     default: 1.4
     format: em
 - 
     id: h3-weight
-    title: H3 字重
+    title: H3 weight
     type: variable-number
     default: 400
 - 
     id: h3-line-height
-    title: H3 行高
+    title: H3 line height
     type: variable-number
     default: 1.3
 - 
     id: shib-h3-color-custom
-    title: H3 颜色
+    title: H3 color
     type: class-select
     allowEmpty: true
     default: shib-h3-sea
@@ -7031,7 +7031,7 @@ settings:
             value: shib-h3-orange
 -
     id: h3-color
-    title: 自定义 H3 颜色
+    title: Custom H3 Color
     type: variable-themed-color
     opacity: true
     format: hex
@@ -7039,18 +7039,18 @@ settings:
     default-dark: '#'
 -
     id: shib-h3-underline
-    title: H3 下划线
+    title: H3 Underline
     description: You must have the Custom Heading Colors  enabled or, if disabled, have selected a custom color for it to work.
     type: class-toggle
 -
     id: shib-h4-header
-    title: H4 设置
+    title: H4 settings
     type: heading
     level: 3
     collapsed: true
 -
     id: h4-font
-    title: H4 Shiba 字体
+    title: H4 Shiba font
     type: variable-select
     default: Satoshi
     options:
@@ -7065,28 +7065,28 @@ settings:
             - Syne
 -
     id: h4-font
-    title: H4 自定义字体
+    title: H4 Custom font 
     type: variable-text
     default: Satoshi
 - 
     id: h4-size
-    title: H4 字号（em）
+    title: H4 size (em)
     type: variable-number
     default: 1.25
     format: em
 - 
     id: h4-weight
-    title: H4 字重
+    title: H4 weight
     type: variable-number
     default: 300
 - 
     id: h4-line-height
-    title: H4 行高
+    title: H4 line height
     type: variable-number
     default: 1.4
 - 
     id: shib-h4-color-custom
-    title: H4 颜色
+    title: H4 color
     type: class-select
     allowEmpty: true
     default: shib-h4-cyan
@@ -7129,7 +7129,7 @@ settings:
             value: shib-h4-orange
 -
     id: h4-color
-    title: 自定义 H4 颜色
+    title: Custom H4 Color
     type: variable-themed-color
     opacity: true
     format: hex
@@ -7137,7 +7137,7 @@ settings:
     default-dark: '#'
 -
     id: shib-h4-underline
-    title: H4 下划线
+    title: H4 Underline
     description: You must have the Custom Heading Colors  enabled or, if disabled, have selected a custom color for it to work.
     type: class-toggle
 -
@@ -7261,7 +7261,7 @@ settings:
             - Syne
 -
     id: h6-font
-    title: H1 自定义字体
+    title: H1 Custom font 
     type: variable-text
     default: Satoshi
 - 

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780832070466-jm3elcg2y",
+  "providerId": "claude",
+  "title": "Explain citation selection detection",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780832070466,
+  "updatedAt": 1780834556793,
+  "lastResponseAt": 1780834527481,
+  "sessionId": "3f5e105a-db0a-41aa-baee-dac885d03499",
+  "providerState": {
+    "providerSessionId": "3f5e105a-db0a-41aa-baee-dac885d03499"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 121,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33536,
+    "contextWindow": 200000,
+    "contextTokens": 33657,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

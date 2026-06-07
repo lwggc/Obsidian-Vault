@@ -1,0 +1,14 @@
+/* 字体配置（仅此而已） */
+@font-face {
+  font-family: "Yozai Local";
+  src: local("Yozai-Regular"),
+       local("Yozai Regular"),
+       local("Yozai");
+}
+
+body {
+  --font-editor-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
+  --font-text-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
+  --font-interface-override: "HarmonyOS Sans", sans-serif;
+  --font-monospace-override: "HarmonyOS Sans", "JetBrains Mono", monospace;
+}
