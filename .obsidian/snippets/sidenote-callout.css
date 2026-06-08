@@ -1,0 +1,87 @@
+/* ===========================================================
+   [!sidenote] - 浮动侧边注释
+
+   用法：
+   > [!sidenote] 标题（可选）
+   > 注释内容...
+
+   效果：
+   - 在阅读视图下：浮动到右侧，部分嵌入右侧留白区域
+   - 在实时预览下：浮动到右侧（受限于 CM6 编辑器，不能推进留白区）
+
+   区别于 [!note]（Alt+1 默认的蓝色 callout）：
+   - 无边框、无标题栏（更简洁）
+   - 浮动到右侧
+   - 更小的字号
+   - 更淡的背景色
+   =========================================================== */
+
+/* ---------- 基础变量 ---------- */
+.callout[data-callout="sidenote"] {
+    --callout-color: 140, 170, 230;     /* 淡紫色调 */
+    --callout-icon: lucide-pencil-line;  /* 铅笔图标 */
+}
+
+/* ---------- 阅读视图 + Live Preview 通用 ---------- */
+.callout[data-callout="sidenote"] {
+    float: right;                        /* 浮动到右侧 */
+    clear: right;                        /* 避免堆叠 */
+    width: min(280px, 40%);              /* 自适应宽度 */
+    min-width: 180px;
+
+    margin: 0.4rem 0 0.6rem 1rem;        /* 左侧留出间距 */
+    padding: 0.5rem 0.7rem;
+
+    font-size: 0.82em;                   /* 略小于正文 */
+    line-height: 1.5;
+
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+    background: hsla(from var(--background-primary) h s calc(l + 3) / 0.85);
+}
+
+/* ---------- 阅读视图：推进右侧留白 ---------- */
+.markdown-preview-view .callout[data-callout="sidenote"] {
+    margin-right: calc(-1 * min(100px, 10%));
+}
+
+/* ---------- 隐藏标题栏（更纯粹的边注样式） ---------- */
+.callout[data-callout="sidenote"] .callout-title {
+    display: none;
+}
+
+/* 隐藏标题后调整内容的内间距 */
+.callout[data-callout="sidenote"] .callout-content {
+    margin-top: 0;
+}
+
+/* ---------- 如果要有标题，可删除上面两个规则，用下面这个代替 ----------
+.callout[data-callout="sidenote"] .callout-title {
+    font-size: 0.75em;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.callout[data-callout="sidenote"] .callout-title .callout-icon {
+    width: 14px;
+    height: 14px;
+}
+*/
+
+/* ---------- 移动端适配 ---------- */
+@media (max-width: 768px) {
+    .callout[data-callout="sidenote"] {
+        float: none;                     /* 窄屏下取消浮动 */
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .markdown-preview-view .callout[data-callout="sidenote"] {
+        margin-right: 0;                 /* 取消负边距 */
+    }
+}
+
+/* ---------- 给 callout 内部添加一个小指示标记，区分普通 callout ---------- */
+.callout[data-callout="sidenote"] .callout-content::before {
+    content: "▸ ";
+    color: rgb(var(--callout-color));
+    font-size: 0.9em;
+}

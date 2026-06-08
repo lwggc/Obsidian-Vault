@@ -1,5 +1,5 @@
 {
-  "autoTidyAfterNewFootnote": true,
+  "autoTidyAfterNewFootnote": false,
   "countMode": "auto",
   "tidyCommandId": ""
 }

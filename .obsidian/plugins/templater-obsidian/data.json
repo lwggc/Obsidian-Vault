@@ -4,6 +4,7 @@
   "enabled_templates_hotkeys": [
     "templates/重要.md",
     "templates/笔记.md",
-    "templates/注意.md"
+    "templates/注意.md",
+    "templates/侧注.md"
   ]
 }
