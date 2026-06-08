@@ -11,4 +11,12 @@ body {
   --font-text-override: "Yozai Local", "Yozai", "HarmonyOS Sans", sans-serif;
   --font-interface-override: "HarmonyOS Sans", sans-serif;
   --font-monospace-override: "HarmonyOS Sans", "JetBrains Mono", monospace;
+  --file-line-width: 680px;
+}
+
+/* 图片不超过内容区宽度 */
+.markdown-reading-view img,
+.markdown-source-view img {
+  max-width: 100% !important;
+  height: auto !important;
 }

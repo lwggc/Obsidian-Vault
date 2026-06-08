@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780842207260-alo57zaks",
+  "providerId": "claude",
+  "title": "Add double-click edit for live preview",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780842207260,
+  "updatedAt": 1780842289372,
+  "lastResponseAt": 1780842289372,
+  "sessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13",
+  "providerState": {
+    "providerSessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13"
+  },
+  "currentNote": "计组27重新起航.md",
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 214,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27648,
+    "contextWindow": 200000,
+    "contextTokens": 27862,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}

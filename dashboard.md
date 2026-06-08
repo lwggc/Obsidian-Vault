@@ -20,6 +20,10 @@ columns:
 
 ## Memo
 
+### 2026-06-07 备忘录
+id: card-mq3usn7z
+我现在的想法是用脚注（better footnote插件）来进行新增知识点，原来的知识点如果进行删除的话 就用删除列表
+
 ## Todo
 
 ### 待办清单

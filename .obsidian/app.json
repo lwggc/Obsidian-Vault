@@ -1,4 +1,7 @@
 {
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false,
+  "showInlineTitle": true
 }
