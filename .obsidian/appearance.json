@@ -3,6 +3,7 @@
   "accentColor": "#7465c3",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "fonts-only"
+    "fonts-only",
+    "sidenote-callout"
   ]
 }
