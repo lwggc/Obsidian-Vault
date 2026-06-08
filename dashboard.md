@@ -32,6 +32,11 @@ type: task
 - [ ] 审阅计网笔记
 - [ ] 回顾计组第1、2章
 
+### 待办清单
+id: card-mq55bs39
+type: task
+- [ ] 今天完成
+
 ## Projects
 
 ## Library
