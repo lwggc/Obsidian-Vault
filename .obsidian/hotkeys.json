@@ -5,16 +5,16 @@
       "key": "1"
     }
   ],
-  "templater-obsidian:templates/注意.md": [
-    {
-      "modifiers": ["Alt"],
-      "key": "3"
-    }
-  ],
   "templater-obsidian:templates/侧注.md": [
     {
       "modifiers": ["Alt"],
       "key": "2"
+    }
+  ],
+  "templater-obsidian:templates/高亮.md": [
+    {
+      "modifiers": ["Alt"],
+      "key": "3"
     }
   ]
 }

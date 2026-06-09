@@ -80,6 +80,54 @@
     color: var(--text-normal);
 }
 
+/* ===========================================================
+   ===========================================================
+   以下为 [!highlight] - 选中高亮框（Alt+3）
+   浅蓝底 + 实线边框
+   ===========================================================
+   =========================================================== */
+
+.callout[data-callout="highlight"] {
+    --callout-color: 160, 200, 240;     /* 浅蓝色 */
+    --callout-icon: lucide-square;       /* 方形图标 */
+}
+
+.callout[data-callout="highlight"] {
+    border: 2px solid rgb(var(--callout-color));          /* 实线方形框 */
+    border-radius: 8px;                                   /* 微圆角 */
+    background: rgba(var(--callout-color), 0.15);          /* 浅蓝底 */
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem 0;
+}
+
+.callout[data-callout="highlight"] .callout-title {
+    font-size: 0.78em;
+    font-weight: 700;
+    color: rgb(var(--callout-color));
+    gap: 5px;
+    padding: 0 0 0.2rem 0;
+    border-bottom: 1.5px solid rgba(var(--callout-color), 0.3);
+    margin-bottom: 0.3rem;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.callout[data-callout="highlight"] .callout-title .callout-icon {
+    width: 14px;
+    height: 14px;
+    color: rgb(var(--callout-color));
+}
+
+.callout[data-callout="highlight"] .callout-title .callout-title-inner {
+    font-size: 0.82em;
+}
+
+.callout[data-callout="highlight"] .callout-content {
+    color: var(--text-normal);
+}
+
 /* ---------- 移动端适配 ---------- */
 @media (max-width: 768px) {
     .callout[data-callout="sidenote"] {
