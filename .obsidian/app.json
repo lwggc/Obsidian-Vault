@@ -3,5 +3,6 @@
   "readableLineLength": true,
   "propertiesInDocument": "hidden",
   "showLineNumber": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "foldIndent": false
 }

@@ -88,20 +88,19 @@
    =========================================================== */
 
 .callout[data-callout="highlight"] {
-    --callout-color: 160, 200, 240;     /* 浅蓝色 */
+    --callout-color: 100, 160, 230;     /* 深蓝色，更醒目 */
     --callout-icon: lucide-square;       /* 方形图标 */
 }
 
 .callout[data-callout="highlight"] {
-    border: 2px solid rgb(var(--callout-color));          /* 实线方形框 */
+    border: 3px solid rgb(var(--callout-color));          /* 更粗的实线方形框 */
     border-radius: 8px;                                   /* 微圆角 */
-    background: rgba(var(--callout-color), 0.15);          /* 浅蓝底 */
+    background: rgba(var(--callout-color), 0.12);          /* 浅蓝底 */
     padding: 0.6rem 0.8rem;
     margin: 0.5rem 0;
 }
 
 .callout[data-callout="highlight"] .callout-title {
-    font-size: 0.78em;
     font-weight: 700;
     color: rgb(var(--callout-color));
     gap: 5px;
@@ -121,7 +120,6 @@
 }
 
 .callout[data-callout="highlight"] .callout-title .callout-title-inner {
-    font-size: 0.82em;
 }
 
 .callout[data-callout="highlight"] .callout-content {
