@@ -4,8 +4,8 @@
   "title": "Add double-click edit for live preview",
   "titleGenerationStatus": "success",
   "createdAt": 1780842207260,
-  "updatedAt": 1780921375945,
-  "lastResponseAt": 1780921375945,
+  "updatedAt": 1781000611990,
+  "lastResponseAt": 1781000611990,
   "sessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13",
   "providerState": {
     "providerSessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13"
@@ -13,12 +13,12 @@
   "currentNote": "计组27重新起航.md",
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 307,
+    "inputTokens": 2426,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 100480,
+    "cacheReadInputTokens": 102400,
     "contextWindow": 200000,
-    "contextTokens": 100787,
-    "percentage": 50,
+    "contextTokens": 104826,
+    "percentage": 52,
     "contextWindowIsAuthoritative": true
   }
 }

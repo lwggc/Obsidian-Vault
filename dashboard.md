@@ -37,6 +37,11 @@ id: card-mq55bs39
 type: task
 - [ ] 计组：偏置值，逻辑移位，算数移位
 
+### 待办清单
+id: card-mq6hfu64
+type: task
+- [ ] 计组除法运算、除法器结构
+
 ## Projects
 
 ## Library
