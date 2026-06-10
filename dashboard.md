@@ -50,6 +50,11 @@ type: task
 - [ ] CF标志
 - [ ] 浮点数规格化表示范围
 
+### 6.10
+id: card-mq7zsc4y
+type: task
+- [ ] double、int型变量在交叉编址中的计算题
+
 ## Projects
 
 ## Library
