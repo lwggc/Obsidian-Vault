@@ -4,20 +4,20 @@
   "title": "Add double-click edit for live preview",
   "titleGenerationStatus": "success",
   "createdAt": 1780842207260,
-  "updatedAt": 1782714858861,
-  "lastResponseAt": 1782714858860,
+  "updatedAt": 1782912840482,
+  "lastResponseAt": 1782912840482,
   "sessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13",
   "providerState": {
     "providerSessionId": "6826496f-af6e-4b6d-9713-79d61c62ec13"
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 599,
+    "inputTokens": 1001,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 169600,
+    "cacheReadInputTokens": 174464,
     "contextWindow": 200000,
-    "contextTokens": 170199,
-    "percentage": 85,
+    "contextTokens": 175465,
+    "percentage": 88,
     "contextWindowIsAuthoritative": true
   }
 }
