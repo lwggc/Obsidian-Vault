@@ -63,6 +63,23 @@ type: task
 - [ ] 无穷大，无界，不存在
 - [ ] 程序的机器级代码表示
 
+### 6.17
+id: card-mqi5gura
+type: task
+- [ ] 指令流水线，微指令
+
+### 6.18
+id: card-mqjdex70
+type: task
+- [ ] 复盘计组第五章cpu时超级无敌大模糊
+
+### 6.21
+id: card-mqntd6mz
+type: task
+- [ ] 有界+-*无界
+- [ ] 存在+-*不存在
+- [ ] 无穷大+-*无穷小
+
 ## Projects
 
 ## Library
