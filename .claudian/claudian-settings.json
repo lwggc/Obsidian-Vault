@@ -106,7 +106,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "",
+  "lastCustomModel": "deepseek-v4-flash",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
