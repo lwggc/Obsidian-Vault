@@ -4,5 +4,6 @@
   "propertiesInDocument": "hidden",
   "showLineNumber": false,
   "showInlineTitle": true,
-  "foldIndent": false
+  "foldIndent": false,
+  "showUnsupportedFiles": false
 }
