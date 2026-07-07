@@ -41,6 +41,10 @@ id: card-mr7wcvtl
 id: card-mr998avb
 指令流水线
 
+### 2026-07-07 备忘录
+id: card-mraj09ly
+b树的构造，删除
+
 ## Todo
 
 ### 大致
