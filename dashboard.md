@@ -37,6 +37,10 @@ id: card-mq6nyda6
 id: card-mr7wcvtl
 边界对齐
 
+### 2026-07-06 备忘录
+id: card-mr998avb
+指令流水线
+
 ## Todo
 
 ### 大致
