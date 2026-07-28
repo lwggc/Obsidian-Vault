@@ -4,8 +4,8 @@
   "title": "Diagnose git sync failure",
   "titleGenerationStatus": "success",
   "createdAt": 1782913422913,
-  "updatedAt": 1785158612290,
-  "lastResponseAt": 1785158612290,
+  "updatedAt": 1785160816345,
+  "lastResponseAt": 1785160816345,
   "sessionId": "ddcee854-7256-47cf-8587-d7ddcb7e769f",
   "providerState": {
     "providerSessionId": "ddcee854-7256-47cf-8587-d7ddcb7e769f",
@@ -235,12 +235,12 @@
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 464,
+    "inputTokens": 124,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 174720,
+    "cacheReadInputTokens": 182016,
     "contextWindow": 200000,
-    "contextTokens": 175184,
-    "percentage": 88,
+    "contextTokens": 182140,
+    "percentage": 91,
     "contextWindowIsAuthoritative": true
   }
 }
