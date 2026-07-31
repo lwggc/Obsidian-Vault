@@ -4,8 +4,8 @@
   "title": "Review 408 notes for errors and supplement",
   "titleGenerationStatus": "success",
   "createdAt": 1785240115559,
-  "updatedAt": 1785500399267,
-  "lastResponseAt": 1785500399267,
+  "updatedAt": 1785501197334,
+  "lastResponseAt": 1785501197334,
   "sessionId": "bd053723-2545-450a-821b-05fd351e6bbf",
   "providerState": {
     "providerSessionId": "bd053723-2545-450a-821b-05fd351e6bbf",
@@ -477,11 +477,11 @@
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 65,
+    "inputTokens": 184,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 339712,
+    "cacheReadInputTokens": 342016,
     "contextWindow": 200000,
-    "contextTokens": 339777,
+    "contextTokens": 342200,
     "percentage": 100,
     "contextWindowIsAuthoritative": true
   }
