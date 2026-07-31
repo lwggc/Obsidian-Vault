@@ -5,5 +5,11 @@
   "showLineNumber": false,
   "showInlineTitle": true,
   "foldIndent": false,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
