@@ -1,0 +1,14 @@
+{
+  "id": "conv-1789284969656-b17wpsjkh",
+  "providerId": "claude",
+  "title": "Explain virtual circuit types",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789284969657,
+  "updatedAt": 1789285483793,
+  "lastResponseAt": 1789285050844,
+  "sessionId": "8c90e027-4f62-47ee-9e2c-f25debad6e0b",
+  "providerState": {
+    "providerSessionId": "8c90e027-4f62-47ee-9e2c-f25debad6e0b"
+  },
+  "currentNote": "计网27重新起航.md"
+}
