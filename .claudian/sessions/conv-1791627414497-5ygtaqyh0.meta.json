@@ -4,19 +4,20 @@
   "title": "Clarify ability to open WeChat mini programs",
   "titleGenerationStatus": "success",
   "createdAt": 1791627414498,
-  "updatedAt": 1795236612084,
-  "lastResponseAt": 1795236612084,
+  "updatedAt": 1795236653576,
+  "lastResponseAt": 1795236653576,
   "sessionId": "e8acff17-36fe-4ab4-bac1-fdb55e66cd22",
   "providerState": {
     "providerSessionId": "e8acff17-36fe-4ab4-bac1-fdb55e66cd22"
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 1650,
+    "inputTokens": 181,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 115584,
+    "cacheReadInputTokens": 126336,
     "contextWindow": 200000,
-    "contextTokens": 117234,
-    "percentage": 59
+    "contextTokens": 126517,
+    "percentage": 63,
+    "contextWindowIsAuthoritative": true
   }
 }
